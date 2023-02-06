@@ -1,0 +1,15 @@
+USE KamigamiNoTanjou;
+
+DROP TABLE IF EXISTS CharacEvents;
+
+CREATE TABLE CharacEvents (
+    ID INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    StartingDate DATETIME NOT NULL,
+    EndingDate DATETIME NOT NULL,
+    Charac INT UNSIGNED NOT NULL,
+    Description LONGTEXT NOT NULL,
+    
+    CONSTRAINT PK_CharacEvent PRIMARY KEY (ID),
+    CONSTRAINT FK_CharacEvent_Charac FOREIGN KEY (Charac) REFERENCES Characs(ID)
+) ENGINE=INNODB, CHARSET=utf8
+;
