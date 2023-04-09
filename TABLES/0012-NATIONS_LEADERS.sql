@@ -1,0 +1,16 @@
+USE KamigamiNoTanjou;
+
+DROP TABLE IF EXISTS NationsLeaders;
+
+CREATE TABLE NationsLeaders(
+    ID INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    Leader INT UNSIGNED NOT NULL,
+    Nation INT UNSIGNED NOT NULL,
+    LeadStartDate DATETIME NOT NULL,
+    LeadEndDate DATETIME NULL,
+
+    CONSTRAINT PK_Nations PRIMARY KEY(ID),
+    CONSTRAINT FK_NationsLeaders_Characs FOREIGN KEY (Leader) REFERENCES Characs(ID),
+    CONSTRAINT FK_NationsLeaders_Nations FOREIGN KEY (Nation) REFERENCES Nations(ID)
+) ENGINE=INNODB, CHARSET=utf8
+;

@@ -6,7 +6,7 @@ DELIMITER GO
 CREATE PROCEDURE GetEventsAtYear (IN YearIn INT UNSIGNED, IN Calendar INT UNSIGNED)
 BEGIN
     SELECT
-        CTR.FirstNames AS Personnage,
+        CONCAT(CTR.FirstNames, ' ', CTR.LastNames) AS Personnage,
         YearFromDate(CEV.StartingDate, Calendar) AS Début,
         YearFromDate(CEV.EndingDate, Calendar) AS Fin,
         CEV.Description AS Événements

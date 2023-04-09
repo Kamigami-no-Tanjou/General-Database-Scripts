@@ -1,0 +1,16 @@
+USE KamigamiNoTanjou;
+
+DROP TABLE IF EXISTS Nations;
+
+CREATE TABLE Nations(
+    ID INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    Name VARCHAR(150) NOT NULL,
+    Calendar INT UNSIGNED NOT NULL,
+    FoundationDate DATETIME NOT NULL,
+    DestructionDate DATETIME NULL,
+    Description LONGTEXT NOT NULL,
+
+    CONSTRAINT PK_Nations PRIMARY KEY(ID),
+    CONSTRAINT FK_Nation_Calendar FOREIGN KEY (Calendar) REFERENCES Calendars(ID)
+) ENGINE=INNODB, CHARSET=utf8
+;

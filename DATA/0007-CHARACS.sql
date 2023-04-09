@@ -1,14 +1,16 @@
 USE KamigamiNoTanjou;
 
-INSERT INTO Characs (LastNames, FirstNames, Portrait, Calendar, Birthdate, Deathdate, Class)
+INSERT INTO Characs (LastNames, FirstNames, Portrait, Description, Calendar, Birthdate, Deathdate, MagicalPotential, Class, Sex, Gender, SexualOrientation, Origin,
+                     Height, HairColour, EyeColour, Appearance,
+                     FavoriteColour, ThingsLoved, ThingsHated)
 VALUES
-    ('Targonis', 'Saar', NULL, 2, DateFromCalendar('0000-05-02', 62, 1), DateFromCalendar('0000-06-06', 23, 1), 2),
-    ('Askar', 'Igor', NULL, 2, DateFromCalendar('0000-07-03', 62, 1), DateFromCalendar('0000-08-05', 35, 1), NULL),
-    ('Targonis', 'Zara', NULL, 2, DateFromCalendar('0000-12-28', 57, 1), NULL, NULL),
-    ('Targonis', 'Joakim', NULL, 2, DateFromCalendar('0000-11-03', 44, 1), DateFromCalendar('0000-02-22', 26, 1), 4),
-    ('Targonis', 'Gustaf', NULL, 2, DateFromCalendar('0000-03-09', 42, 1), DateFromCalendar('0000-02-22', 26, 1), 2),
-    ('Targonis', 'Elona', NULL, 2, DateFromCalendar('0000-06-05', 40, 1), DateFromCalendar('0000-03-12', 17, 1), 3),
-    ('Targonis', 'Martijn', NULL, 2, DateFromCalendar('0000-02-26', 38, 1), DateFromCalendar('0003-04-18', 0, 1), 1),
-    ('Targonis', 'Claire', NULL, 2, DateFromCalendar('0000-06-21', 35, 1), DateFromCalendar('0001-09-14', 0, 1), 2),
-    ('Targonis', 'Hans', NULL, 2, DateFromCalendar('0000-04-07', 33, 1), DateFromCalendar('0002-11-28', 0, 1), 1)
+    ('Targonis', 'Saar', NULL, 'Très arrogant, il déteste quand les choses échappent à son contrôle, mais sait faire preuve de patience pour retourner la situation à son avantage.', 2, DateFromCalendar('0000-05-02', 62, 1), DateFromCalendar('0000-05-06', 23, 1), 2407, 2, 2, 2, 'Hétérosexuel', 22, 182, 'Noirs', 'Verts', 'Il a des traits fins, son visage semble maigre et carré. Il a également quelques cicatrices. Il affectionne particulièrement les vêtements courts, quelle que soit la météo, et a rarement froid.', 'Bleu', 'Se faire supplier à genoux; Quand ses plans fonctionnent; Se sentir tout puissant', 'L''autorité; Les imprévus; Les contraintes et autres conditions'), -- 10
+    ('Askar', 'Igor', NULL, NULL, 2, DateFromCalendar('0000-07-03', 62, 1), DateFromCalendar('0000-08-05', 35, 1), NULL, NULL, 2, 2, NULL, 22, NULL, NULL, NULL, NULL, NULL, NULL, NULL), -- 11
+    ('Targonis', 'Zara', NULL, NULL, 2, DateFromCalendar('0000-12-28', 57, 1), NULL, NULL, NULL, 1, 1, 'Hétérosexuelle', 22, NULL, NULL, NULL, NULL, NULL, NULL, NULL), -- 12
+    ('Targonis', 'Joakim', NULL, NULL, 2, DateFromCalendar('0000-11-03', 44, 1), DateFromCalendar('0000-02-22', 26, 1), NULL, 4, 2, 2, 'Hétérosexuel', 22, NULL, NULL, NULL, NULL, NULL, NULL, NULL), -- 13
+    ('Targonis', 'Gustaf', NULL, NULL, 2, DateFromCalendar('0000-03-09', 42, 1), DateFromCalendar('0000-02-22', 26, 1), NULL, 2, 2, 2, 'Hétérosexuel', 22, NULL, NULL, NULL, NULL, NULL, NULL, NULL), -- 14
+    ('Targonis', 'Elona', NULL, NULL, 2, DateFromCalendar('0000-06-05', 40, 1), DateFromCalendar('0000-03-12', 17, 1), NULL, 3, 1, 1, 'Bisexuelle', 22, NULL, NULL, NULL, NULL, NULL, NULL, NULL), -- 15
+    ('Targonis', 'Martijn', NULL, NULL, 2, DateFromCalendar('0000-02-26', 38, 1), DateFromCalendar('0003-04-18', 0, 1), NULL, 1, 1, 1, 'Hétérosexuel', 22, NULL, NULL, NULL, NULL, NULL, NULL, NULL), -- 16
+    ('Targonis', 'Claire', NULL, 'Très autoritaire, grande gueule, elle force tout son environnement à se plier à ses exigences, malgré son rang de sous-commandante', 2, DateFromCalendar('0000-06-21', 35, 1), DateFromCalendar('0001-09-14', 0, 1), 240, 2, 2, 2, 'Asexuelle', 94, NULL, 'Noirs (mèches rouges)', 'Ébène', 'Son visage n''est pas particulièrement beau, tout comme il n''est pas particulièrement laid. Ce qui retient le plus l''attention chez elle quand on la rencontre pour la première fois, c''est la profondeur de son regard ; le sombre de ses yeux. Elle a une passion pour les tenues extravagantes, dentelle par-ci, froufrous par là... Les couleurs dominantes dans son garde robe sont le rouge, le noir et le vert. Bien sûr, le noir est dominant malgré le fait qu''elle ait très peu de tenues noires du fait qu''elle n''ait tout simplement aucune tenue sans noir.', 'Noir', NULL, NULL), -- 17
+    ('Targonis', 'Hans', NULL, NULL, 2, DateFromCalendar('0000-04-07', 33, 1), DateFromCalendar('0002-11-28', 0, 1), NULL, 1, 2, 2, 'Hétérosexuel', 94, NULL, NULL, NULL, NULL, NULL, NULL, NULL) -- 18
 ;
