@@ -26,8 +26,8 @@ CREATE TABLE Characs (
 
     -- Taste
     FavoriteColour VARCHAR(25) NULL,
-    ThingsLoved VARCHAR(200) NULL,
-    ThingsHated VARCHAR(200) NULL,
+    ThingsLoved VARCHAR(800) NULL,
+    ThingsHated VARCHAR(800) NULL,
     
     CONSTRAINT PK_Charac PRIMARY KEY (ID),
     CONSTRAINT FK_Charac_Calendar FOREIGN KEY (Calendar) REFERENCES Calendars(ID),

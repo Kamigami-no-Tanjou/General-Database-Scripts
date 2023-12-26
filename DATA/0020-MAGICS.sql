@@ -7,17 +7,17 @@ VALUES
     -- 35
     ('Magie de connexion', 'Une magie qui permet à son utilisateur de laisser un défunt prendre momentanément le contrôle de son corps.'),
     -- 36
-    ('Magie de matérialisation électrique', 'Une magie qui permet de donner forme à l''électricité, tout en conservant ses prorpiétés.'),
+    ('Magie de matérialisation électrique', 'Une magie qui permet de donner forme à l''électricité, tout en conservant ses propriétés.'),
     -- 37
     ('Magie de maîtrise temporelle', 'Grâce à elle, son utilisateur peut temporairement arrêter l''écoulement du temps (de l''ordre d''une seconde par 120 U)'),
     -- 38
-    ('Magie des liannes', 'Elle permet de faire pousser rapidement des lianes dans n''importe quelle direction et n''importe où.'),
+    ('Magie des lianes', 'Elle permet de faire pousser rapidement des lianes dans n''importe quelle direction et n''importe où.'),
     -- 39
     ('Magie de pression', 'Cette magie permet de contrôler localement la pression exercée sur un point dans l''espace.'),
     -- 40
     ('Magie de modification d''apparence', 'Cette magie permet de changer définitivement l''apparence des choses. Il ne faut pas la confondre avec la magie de transformation, qui, elle, consomme de la magie en permanence tant que la transformation est active.'),
     -- 41
-    ('Magie d''imitation', 'Cette magie permet d''agir de manière identique à un autre être vivant de manière simultanée ou décalée dans le temps. L''utilisateur reste cependant apte à choisir ses mots. Enfin, c''est aisni que le monde perçoit cette magie. En réalité, son fonctionnement est beaucoup plus complexe : elle s''alimente de l''existence de la cible à imiter qu''elle vient altérer ou épuiser lentement. Un bon combattant est capable de vider sa cible de son énergie en seulement une heure, ou de modifier son comportement suffisament pour pouvoir le contrôler d''une certaine manière.'),
+    ('Magie d''imitation', 'Cette magie permet d''agir de manière identique à un autre être vivant de manière simultanée ou décalée dans le temps. L''utilisateur reste cependant apte à choisir ses mots. Enfin, c''est ainsi que le monde perçoit cette magie. En réalité, son fonctionnement est beaucoup plus complexe : elle s''alimente de l''existence de la cible à imiter qu''elle vient altérer ou épuiser lentement. Un bon combattant est capable de vider sa cible de son énergie en seulement une heure, ou de modifier son comportement suffisamment pour pouvoir le contrôler d''une certaine manière.'),
     -- 42
     ('Magie d''hyperventilation', 'Elle peut sonner péjorative, mais en réalité, elle permet d''obtenir une amélioration de la puissance (aussi bien magique que musculaire) de son utilisateur de l''ordre du double sur une très courte période (environ 5mn) avant de lui faire subir une lourde fatigue et un mal de crâne violent. Généralement, une personne lambda se retrouve rapidement au bord de l''évanouissement en l''utilisant.'),
     -- 43
@@ -29,7 +29,7 @@ VALUES
     -- 46
     ('Magie de faisceaux lumineux', 'Avec elle, son porteur peut créer des faisceaux lumineux d''une très forte intensité. Leur puissance est telle qu''avec une faible puissance ils sont déjà capable de rendre quelqu''un aveugle. À haute puissance, ils sont capables de perforer n''importe quelle surface sans difficulté.'),
     -- 47
-    ('Magie de forge', 'La magie de forge permet de maléer les métaux et les pierres précieuses en les faisant chauffer intensément.'),
+    ('Magie de forge', 'La magie de forge permet de changer la forme des métaux et des pierres précieuses en les faisant chauffer intensément.'),
     -- 48
     ('Magie de projection', 'Cette magie permet de projeter n''importe quoi dans n''importe quelle direction.'),
     -- 49

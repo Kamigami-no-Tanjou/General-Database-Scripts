@@ -25,5 +25,7 @@ VALUES
     ('Neveu'),
     ('Nièce'),
     ('Mari'),
-    ('Femme')
+    ('Femme'),
+    ('Beau-fils'),
+    ('Belle-fille')
 ;
