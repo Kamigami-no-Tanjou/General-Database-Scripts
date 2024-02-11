@@ -1,5 +1,3 @@
-#!/bin/bash
-#
 # This file gives the order in which scripts should be passed to the database to get it to the last
 # version's state in one go.
 # 
