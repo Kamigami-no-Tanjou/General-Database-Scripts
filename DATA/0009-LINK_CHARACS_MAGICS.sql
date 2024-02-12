@@ -1,4 +1,4 @@
-USE KamigamiNoTanjou;
+USE KntManagerProd;
 
 INSERT INTO LINK_CharacsMagics (Charac, Magic, `Rank`)
 VALUES

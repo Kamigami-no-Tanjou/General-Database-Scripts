@@ -1,4 +1,4 @@
-USE KamigamiNoTanjou;
+USE KntManagerProd;
 
 INSERT INTO Maps (Name, EstablishmentDate, ExpiryDate, Nation, Content)
 VALUES

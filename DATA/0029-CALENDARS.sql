@@ -1,4 +1,4 @@
-USE KamigamiNoTanjou;
+USE KntManagerProd;
 
 INSERT INTO Calendars (Name, ReferenceDate, NegativeYears)
 VALUES

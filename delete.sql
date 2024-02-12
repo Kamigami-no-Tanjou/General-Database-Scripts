@@ -1,4 +1,4 @@
-USE KamigamiNoTanjou;
+USE KntManagerProd;
 
 -- This file contains the script to delete everything in the database. Every dependance will be
 -- indicated through it so that you (or I) do not delete things that are not necessary to delete to

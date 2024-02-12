@@ -1,4 +1,4 @@
-USE KamigamiNoTanjou;
+USE KntManagerProd;
 
 INSERT INTO Characs (LastNames, FirstNames, Portrait, Description, Calendar, Birthdate, Deathdate, MagicalPotential, Class, Sex, Gender, SexualOrientation, Origin,
                      Height, HairColour, EyeColour, Appearance,

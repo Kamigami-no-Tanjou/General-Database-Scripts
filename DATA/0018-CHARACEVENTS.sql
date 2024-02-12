@@ -1,4 +1,4 @@
-USE KamigamiNoTanjou;
+USE KntManagerProd;
 
 INSERT INTO CharacEvents(StartingDate, EndingDate, Charac, Description)
 VALUES

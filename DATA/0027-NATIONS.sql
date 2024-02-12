@@ -1,4 +1,4 @@
-USE KamigamiNoTanjou;
+USE KntManagerProd;
 
 INSERT INTO Nations (Name, Calendar, FoundationDate, DestructionDate, Description)
 VALUES

@@ -1,4 +1,4 @@
-USE KamigamiNoTanjou;
+USE KntManagerProd;
 
 DROP VIEW IF EXISTS ClassesCount;
 

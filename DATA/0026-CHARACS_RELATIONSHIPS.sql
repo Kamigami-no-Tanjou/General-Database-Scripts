@@ -1,4 +1,4 @@
-USE KamigamiNoTanjou;
+USE KntManagerProd;
 
 INSERT INTO CharacsRelationships (FromCharac, TowardsCharac, FamilyStatus, Appreciation, History)
 VALUES

@@ -1,4 +1,4 @@
-USE KamigamiNoTanjou;
+USE KntManagerProd;
 
 DROP FUNCTION IF EXISTS DateFromCalendar;
 

@@ -1,4 +1,4 @@
-USE KamigamiNoTanjou;
+USE KntManagerProd;
 
 INSERT INTO NationsLeaders (Leader, Nation, LeadStartDate, LeadEndDate)
 VALUES
